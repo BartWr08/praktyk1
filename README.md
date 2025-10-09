@@ -1,3 +1,8 @@
-# praktyk1
-## pogrubienie
-### czy powiększenie?
+# pogrubienie
+## czy powiększenie?
+### 2 w 1
+
+*to jest kursywa*
+**a to pogrubienie**
+~~tak się skreśla tekst~~
+
