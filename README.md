@@ -19,7 +19,7 @@
 ![teskt tutaj chyba powinien wyświetlać się jako link](./desktop.png "moja tapeta")
 
 tak powinna prezentować się pozioma linia:
-___
+---
 
 
 🌶️
