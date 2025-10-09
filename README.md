@@ -18,4 +18,11 @@
 
 >>>> im więcej strzałek tym bardziej zagnieżdżony cytat
 
-![powinno być zdjęcie](./ "moja tapeta")
+![teskt tutaj chyba powinien wyświetlać się jako link](./desktop.png "moja tapeta")
+
+tak powinna prezentować się pozioma linia:
+___
+
+https://youtube.com/
+
+🌶️
