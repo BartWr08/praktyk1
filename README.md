@@ -17,3 +17,5 @@
 >>> a da się tak?
 
 >>>> im więcej strzałek tym bardziej zagnieżdżony cytat
+
+![powinno być zdjęcie](./ "moja tapeta")
