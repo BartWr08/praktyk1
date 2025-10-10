@@ -1,3 +1,5 @@
+# README w formie testowej
+
 # pogrubienie
 ## czy powiększenie?
 ### 2 w 1
