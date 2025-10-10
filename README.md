@@ -24,5 +24,7 @@ tak powinna prezentować się pozioma linia:
 A tu jest jakieś zjawisko którego nie rozumiem:
 ___
 
+[foto fenomenu](./fenomen.png "jak to działa?")
+
 
 🌶️
