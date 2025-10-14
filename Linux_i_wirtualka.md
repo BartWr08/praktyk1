@@ -11,15 +11,9 @@ Uruchom PowerShell jako administrator i wpisz poniższe polecenie. Funkcja zosta
 *Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All*
 
 ### Tworzenie maszyny wirtualnej
-1. Pobierz .iso wybranego systemu
-2. W menedżerze Hyper-V w okienku po lewej stronie wybierz komputer, następnie wejdź w pasku na górze w akcja, nowa i maszyna wirtualna. Otworzy się kreator nowej maszyny wirtualnej
-3. "Dalej", następnie należy nazwać swoją maszynę wirtualną i wybrać folder dla niej, lub zostawić domyślny.
-[Hyper-V krok 2 i 3](./hiper1_2.png)
-4. Następnie "Dalej" i pojawi się wybór generacji maszyny. Wybierz 1 jeśli system gościa, czyli ten wirtualny, nie obsługuje UEFI, Secure Boot i/lub wymaga MBR. Jeśli sytuacja jest przeciwna to wybierz generację 2, bo szybciej działa, następnie "Dalej".
-5. Przydzielanie pamięci początkowej. Pamięć początkowa to ilość pamięci RAM jaką maszyna dostanie przy jej uruchamianiu. Dynamiczna pamięć to przydzielanie z ustawionego zakresu pamięci minimalnej i maksymalnej, wybierz co się podoba, następnie "Dalej".
-[Hyper-V krok 4 i 5](./hiper4_5.png)
-6. 
-
+1. Wybierz w polu po lewej stronie komputer na którym ma być utworzona maszyna
+2. Następnie w pasku na górze: akcja, nowe, maszyna wirtualna
+3. Uruchomi się kreator nowej maszyny wirtualnej, kliknij zakończ i maszyna będzie gotowa z domyślnymi parametrami, teraz trzeba ją samodzielnie modyfikować.
 
 
 # Linux
