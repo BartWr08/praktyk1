@@ -73,8 +73,7 @@ Jest to prosta metoda instalowania wielu programów, np. VS Code wymaga odświe�
 
 Za to *sudo snap install code --classic* pozwoli na łatwe i bezproblemowe zainstalowanie VS Code.
 
-Na uruchomienie wystarczy tylko wpisać *code* i będzie działać
-[](./VSC_linux.png)
+Na uruchomienie wystarczy tylko wpisać *code* i [będzie działać](./VSC_linux.png)
 
 *sudo snap remove code* - odinstalowywuje VS Code
 
