@@ -14,7 +14,7 @@ Uruchom PowerShell jako administrator i wpisz poniższe polecenie. Funkcja zosta
 1. Pobierz .iso wybranego systemu
 2. W menedżerze Hyper-V w okienku po lewej stronie wybierz komputer, następnie wejdź w pasku na górze w akcja, nowa i maszyna wirtualna. Otworzy się kreator nowej maszyny wirtualnej
 3. "Dalej", następnie należy nazwać swoją maszynę wirtualną i wybrać folder dla niej, lub zostawić domyślny.
-
+[Hyper-V krok 2 i 3](./hiper1_2)
 
 4. 
 
