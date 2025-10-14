@@ -41,7 +41,26 @@ Ubuntu 22.04 jest dobrym rozwiązaniem dla osób zaczynających działania z Lin
 
 ### Podstawowe komendy
 - sudo su - nadaje użytkownikowi uprawnienia roota, czyli może on po tym zrobic absolutnie wszystko co da się zrobić z systemem
-- cd / - przenosi do folderu domowego, cd/*nazwa folderu* przenosi do kolejnego folderu
-- ls - sprawdza zawartość folderu
-- sudo apt update - sprawdza i pobiera aktualizacje
-- sudo apt upgrade/full-upgrade - instaluje/pobiera i instaluje wszystkie możliwe aktualizacje
+- cd / - przenosi do folderu domowego, cd/*nazwa folderu* przenosi do kolejnego katalogu
+- ls, ls -l - pokazuje zawartość katalogu, pokazuje szczegółową zawartość katalogu z uprawnieniami
+- pwd - pokazuje bierzący katalog
+- mkdir *nazwa* tworzy katalog o określonej nazwie
+- rm - usuwa pliki (rm *nazwa pliku*) lub katalogi wraz z ich zawartością (rm -r *nazwa katalogu*)
+- cp - kopiowanie pliku lub katalogu (cp *źródło* *cel*), można też kopiować plik w tym samym katalogu (cp *nazwa pliku* *nowa nazwa pliku*)
+- mv - przenoszenie plików lub katalogów (mv *źródło* *cel*), lub zmiana nazwy pliku lub katalogu (mv *nazwa pliku* *nowa nazwa pliku*)
+- uname -a - pokazuje informacje o systemie
+- df -h - pokazuje miejsce na dyskach w czytelny i przejrzysty sposób
+- free -h - pokazuje użycie pamięci RAM
+- top - monitor procesów w czasie rzeczywistym
+- uptime - pokazuje obciążenie CPU i czas pracy systemu
+- sudo apt update - odświeża listę pakietów do aktualizacji
+- sudo apt upgrade/full-upgrade - aktualizuje zainstalowane pakiety
+- sudo apt install *nazwa pakietu* - instaluje pakiet o określonej nazwie
+- sudo apt remove *nazwa pakietu* - odinstalowywuje pakiet o określonej nazwie
+- sudo apt autoremove - usuwa starsze wersje pakietu i pliki instalacyjne
+- apt list --upgradable - wyświetla wszystkie pakiety które można zaktualizować
+- man *komenda* - pokazuje instrukcję użycia danej komendy
+- cat *nazwa pliku* - wyświetla zawartość pliku
+- nano *nazwa pliku* - otwiera plik w prostym edytorze tekstu
+- sudo shutdown now lub shutdown now (dla roota) - zamyka system
+
