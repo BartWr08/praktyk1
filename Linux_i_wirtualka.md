@@ -32,4 +32,16 @@ Linux jest rodziną systemów operacyjnych opartych na jądrze Linux. Są one da
 7. Fedora - świerze oprogramowanie, wspierane przez Red Hat, dobry dla deweloperów i testowania nowości.
 
 
-# Ubuntu 22.04
+# Ubuntu 22.04 LTS
+LTS (Long-Term Support) oznacza długie wsparcie, dla tej wersji jest to do 2027 roku, która fuckcjonuje już od roku 2022.
+
+Jest to system stabilny, nadający się jako system serwerowy lub konsumencki. Może on działać z nakładką graficzną (w tym przypadku GNOME 42), która ma tradycyjny wygląd pulpitu.
+
+Ubuntu 22.04 jest dobrym rozwiązaniem dla osób zaczynających działania z Linuxem, dla osób które chcą mieć stabilny system bez częstych reinstalacji.
+
+### Podstawowe komendy
+- sudo su - nadaje użytkownikowi uprawnienia roota, czyli może on po tym zrobic absolutnie wszystko co da się zrobić z systemem
+- cd / - przenosi do folderu domowego, cd/*nazwa folderu* przenosi do kolejnego folderu
+- ls - sprawdza zawartość folderu
+- sudo apt update - sprawdza i pobiera aktualizacje
+- sudo apt upgrade/full-upgrade - instaluje/pobiera i instaluje wszystkie możliwe aktualizacje
