@@ -32,7 +32,7 @@ Linux jest rodziną systemów operacyjnych opartych na jądrze Linux. Są one da
 7. Fedora - świerze oprogramowanie, wspierane przez Red Hat, dobry dla deweloperów i testowania nowości.
 
 
-# Ubuntu 22.04 LTS
+# Ubuntu 22.04 LTS z nakładką graficzną
 LTS (Long-Term Support) oznacza długie wsparcie, dla tej wersji jest to do 2027 roku, która fuckcjonuje już od roku 2022.
 
 Jest to system stabilny, nadający się jako system serwerowy lub konsumencki. Może on działać z nakładką graficzną (w tym przypadku GNOME 42), która ma tradycyjny wygląd pulpitu.
@@ -62,5 +62,17 @@ Ubuntu 22.04 jest dobrym rozwiązaniem dla osób zaczynających działania z Lin
 - man *komenda* - pokazuje instrukcję użycia danej komendy
 - cat *nazwa pliku* - wyświetla zawartość pliku
 - nano *nazwa pliku* - otwiera plik w prostym edytorze tekstu
-- sudo shutdown now lub shutdown now (dla roota) - zamyka system
+- shutdown now - wyłącza system natychmiast
+
+### Instalacja przykładowej aplikacji (VLC media player)
+1. Wpisz komendę *sudo snap install VLC*
+2. Poczekaj
+3. Wpisz *vlc* i aplikacja się uruchomi.
+
+Jest to prosta metoda instalowania wielu programów, np. VS Code wymaga odświeżenia pakietów, dodania klucza GPG od Microsoftu, dodania repozytorium VS Code, odświerzenia pakietów i wtedy da się instalować (standardowa metoda poporzez *sudo apt install*)
+
+Za to *sudo snap install code --classic* pozwoli na łatwe i bezproblemowe instalowanie VS Code.
+
+
+
 
