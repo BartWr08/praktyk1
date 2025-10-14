@@ -86,4 +86,4 @@ Na uruchomienie wystarczy tylko wpisać *code* i [będzie działać](./VSC_linux
 4. Komendą *touch notatka.txt* tworzymy [plik tekstowy](przed_edycja.png)
 5. *nano notatka.txt* otwiera plik w [edytorze tekstu](./edytor.png), zamyka się crtl+x, a potem trzeba potwierdzić zapisanie lub odrzucenie zmian w pliku
 
-
+Nano otwiera oprócz plików tekstowych także konfiguracyjne (.conf, .yaml)
