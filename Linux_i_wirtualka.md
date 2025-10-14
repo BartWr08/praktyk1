@@ -17,7 +17,7 @@ Uruchom PowerShell jako administrator i wpisz poniższe polecenie. Funkcja zosta
 [Hyper-V krok 2 i 3](./hiper1_2.png)
 4. Następnie "Dalej" i pojawi się wybór generacji maszyny. Wybierz 1 jeśli system gościa, czyli ten wirtualny, nie obsługuje UEFI, Secure Boot i/lub wymaga MBR. Jeśli sytuacja jest przeciwna to wybierz generację 2, bo szybciej działa, następnie "Dalej".
 5. Przydzielanie pamięci początkowej. Pamięć początkowa to ilość pamięci RAM jaką maszyna dostanie przy jej uruchamianiu. Dynamiczna pamięć to przydzielanie z ustawionego zakresu pamięci minimalnej i maksymalnej, wybierz co się podoba, następnie "Dalej".
-
+[Hyper-V krok 4 i 5](./hiper4_5.png)
 6. 
 
 
