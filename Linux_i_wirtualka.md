@@ -71,7 +71,12 @@ Ubuntu 22.04 jest dobrym rozwiązaniem dla osób zaczynających działania z Lin
 
 Jest to prosta metoda instalowania wielu programów, np. VS Code wymaga odświeżenia pakietów, dodania klucza GPG od Microsoftu, dodania repozytorium VS Code, odświerzenia pakietów i wtedy da się instalować (standardowa metoda poporzez *sudo apt install*)
 
-Za to *sudo snap install code --classic* pozwoli na łatwe i bezproblemowe instalowanie VS Code.
+Za to *sudo snap install code --classic* pozwoli na łatwe i bezproblemowe zainstalowanie VS Code.
+
+Na uruchomienie wystarczy tylko wpisać *code* i będzie działać
+[](./VSC_linux.png)
+
+*sudo snap remove code* - odinstalowywuje VS Code
 
 
 
