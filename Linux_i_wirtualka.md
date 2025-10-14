@@ -11,6 +11,13 @@ Uruchom PowerShell jako administrator i wpisz poniższe polecenie. Funkcja zosta
 *Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All*
 
 ### Tworzenie maszyny wirtualnej
+1. Pobierz .iso wybranego systemu
+2. W menedżerze Hyper-V w okienku po lewej stronie wybierz komputer, następnie wejdź w pasku na górze w akcja, nowa i maszyna wirtualna. Otworzy się kreator nowej maszyny wirtualnej
+3. "Dalej", następnie należy nazwać swoją maszynę wirtualną i wybrać folder dla niej, lub zostawić domyślny.
+
+
+4. 
+
 
 
 # Linux
