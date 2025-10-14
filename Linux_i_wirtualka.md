@@ -44,7 +44,7 @@ Ubuntu 22.04 jest dobrym rozwiązaniem dla osób zaczynających działania z Lin
 - cd / - przenosi do folderu domowego, cd/*nazwa folderu* przenosi do kolejnego katalogu
 - ls, ls -l - pokazuje zawartość katalogu, pokazuje szczegółową zawartość katalogu z uprawnieniami
 - pwd - pokazuje bierzący katalog
-- mkdir *nazwa* tworzy katalog o określonej nazwie
+- mkdir *nazwa* - tworzy katalog o określonej nazwie
 - rm - usuwa pliki (rm *nazwa pliku*) lub katalogi wraz z ich zawartością (rm -r *nazwa katalogu*)
 - cp - kopiowanie pliku lub katalogu (cp *źródło* *cel*), można też kopiować plik w tym samym katalogu (cp *nazwa pliku* *nowa nazwa pliku*)
 - mv - przenoszenie plików lub katalogów (mv *źródło* *cel*), lub zmiana nazwy pliku lub katalogu (mv *nazwa pliku* *nowa nazwa pliku*)
@@ -64,6 +64,8 @@ Ubuntu 22.04 jest dobrym rozwiązaniem dla osób zaczynających działania z Lin
 - nano *nazwa pliku* - otwiera plik w prostym edytorze tekstu
 - shutdown now - wyłącza system natychmiast
 
+## Rózne podstawowe operacje z poziomu wiersza poleceń
+
 ### Instalacja przykładowej aplikacji (VLC media player)
 1. Wpisz komendę *sudo snap install VLC*
 2. Poczekaj
@@ -77,12 +79,11 @@ Na uruchomienie wystarczy tylko wpisać *code* i [będzie działać](./VSC_linux
 
 *sudo snap remove code* - odinstalowywuje VS Code
 
-### Tworzenie, przenoszenie, edycja plików tekstowych.
+### Tworzenie i edycja plików tekstowych.
 1. Konemdą *cd /* udajemy się do katalodu głównego
 2. Tam za pomocą *mkdir projekty* tworzymy katalog "projekty"
 3. cd projekty przenosi nas do tego katalogu
 4. Komendą *touch notatka.txt* tworzymy [plik tekstowy](przed_edycja.png)
 5. *nano notatka.txt* otwiera plik w [edytorze tekstu](./edytor.png), zamyka się crtl+x, a potem trzeba potwierdzić zapisanie lub odrzucenie zmian w pliku
-
 
 
