@@ -12,8 +12,8 @@ Uruchom PowerShell jako administrator i wpisz poniższe polecenie. Funkcja zosta
 
 ### Tworzenie maszyny wirtualnej
 1. Wybierz w polu po lewej stronie komputer na którym ma być utworzona maszyna
-2. Następnie w pasku na górze: akcja, nowe, maszyna wirtualna
-3. Uruchomi się kreator nowej maszyny wirtualnej, kliknij zakończ i maszyna będzie gotowa z domyślnymi parametrami, teraz trzeba ją samodzielnie modyfikować.
+2. Następnie po prawej stronie szybkie tworzenie
+3. Wybierz system jaki chcesz zainstalować, a program zrobi resztę. Zalecam skontrolowanie parametrów jakie dostała maszyna, czy zgadzają się z możliwościami komputera i czy na pewno pozwolą na swobodną pracę wirtualnego systemu
 
 
 # Linux
