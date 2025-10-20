@@ -14,4 +14,21 @@
 
 **3. Sprawdzenie:** polecenie *docker run hello-world* pozwala na sprawdzenie czy docker jest poprawnie zainstalowany i działa.
 
-**4. Instalacja pakietu gaficznego:** 
+![test dockera](./docker_grafik.png)
+
+**4. Instalacja pakietu gaficznego:** pierwsze polecenie jest do utworzenia partycji dla portainera, a druga do uruchomienia go.
+
+![instalacja portainera](./docker_grafik2.png)
+
+**5. Uruchomienie Dockera w trybie graficznym:** w dowolnej przeglądarce w wyszukiwarce URL wpisz "https://localhost:9443" - dotyczy konkretnie ustawionego portu w tym przypadku, port localhost można ustawić prawie dowolny.
+
+![portainer otwarty w Firefox](./docker-portainer_aktywny.png)
+
+## Portainer
+Jest to lekka graficzna nakładka (GUI) do zarządzania Dockerem i Docker Swarm.
+Działa jako kontener i udostępnia panel przez przeglądarkę, dzięki czemu możesz:
+- przeglądać kontenery, obrazy, wolumeny i sieci
+- tworzyć i usuwać kontenery jednym kliknięciem
+- zarządzać środowiskami lokalnymi i zdalnymi
+- monitorować zasoby i logi
+- zarządzać kontami i uprawnieniami
