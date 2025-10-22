@@ -16,10 +16,10 @@ Docker Swarm jest łatwiejszy do konfiguracji i użycia niż bardziej złożone 
 ### Działanie Docker Swarm
 
 - orkiestracja kontenerów: Swarm umożliwia zarządzanie wieloma kontenerami działającymi na wielu hostach, tak jakby stanowiły jeden system.
-- Deklaratywny model: Zamiast ręcznego zarządzania kontenerami, definiuje się pożądany stan aplikacji. Swarm dba o to, by ten stan był utrzymany.
-- Łatwe skalowanie: Usługi można skalować w górę lub w dół za pomocą prostych poleceń. Swarm automatycznie rozprowadza zadania (kontenery) na dostępne węzły.
-- Wysoka dostępność i tolerancja na błędy: Jeśli jeden z węzłów ulegnie awarii, Swarm automatycznie przeniesie jego zadania na inne dostępne węzły, zapewniając ciągłość działania.
-- Wbudowane równoważenie obciążenia (load balancer): Wbudowany mechanizm równoważenia obciążenia rozprowadza ruch przychodzący na kontenery należące do danej usługi. 
+- deklaratywny model: zamiast ręcznego zarządzania kontenerami, definiuje się pożądany stan aplikacji. Swarm dba o to, by ten stan był utrzymany.
+- łatwe skalowanie: usługi można skalować w górę lub w dół za pomocą prostych poleceń. Swarm automatycznie rozprowadza zadania (kontenery) na dostępne węzły.
+- wysoka dostępność i tolerancja na błędy: jeśli jeden z węzłów ulegnie awarii, Swarm automatycznie przeniesie jego zadania na inne dostępne węzły, zapewniając ciągłość działania.
+- wbudowane równoważenie obciążenia (load balancer): wbudowany mechanizm równoważenia obciążenia rozprowadza ruch przychodzący na kontenery należące do danej usługi. 
 
 ### Zastosowania Docker Swarm
 
@@ -67,7 +67,7 @@ Docker Swarm jest łatwiejszy do konfiguracji i użycia niż bardziej złożone 
 
 ![edytowane](./stack2.png)
 
-4. Na samym dole kliknij Deploy the stack.
+4. Na samym dole kliknij *Deploy the stack*.
 
 
 ## Zarządzanie w portainerze
