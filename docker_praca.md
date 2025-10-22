@@ -13,7 +13,7 @@ Docker umożliwia:
 To wbudowane w Docker narzędzie do orkiestracji kontenerów. Służy do zarządzania klastrem maszyn, które są ze sobą połączone i działają jako jeden wirtualny system. Dzięki temu można łatwo skalować aplikacje, zapewnić im wysoką dostępność i równoważyć obciążenie między wieloma hostami.
 Docker Swarm jest łatwiejszy do konfiguracji i użycia niż bardziej złożone systemy, jak Kubernetes. Jest zintegrowany bezpośrednio z interfejsem wiersza poleceń Dockera (CLI).
 
-**Działanie Docker Swarm**
+### Działanie Docker Swarm
 
 - orkiestracja kontenerów: Swarm umożliwia zarządzanie wieloma kontenerami działającymi na wielu hostach, tak jakby stanowiły jeden system.
 - Deklaratywny model: Zamiast ręcznego zarządzania kontenerami, definiuje się pożądany stan aplikacji. Swarm dba o to, by ten stan był utrzymany.
@@ -21,7 +21,7 @@ Docker Swarm jest łatwiejszy do konfiguracji i użycia niż bardziej złożone 
 - Wysoka dostępność i tolerancja na błędy: Jeśli jeden z węzłów ulegnie awarii, Swarm automatycznie przeniesie jego zadania na inne dostępne węzły, zapewniając ciągłość działania.
 - Wbudowane równoważenie obciążenia (load balancer): Wbudowany mechanizm równoważenia obciążenia rozprowadza ruch przychodzący na kontenery należące do danej usługi. 
 
-**Zastosowania Docker Swarm**
+### Zastosowania Docker Swarm
 
 - dobrze sprawdza się w małych i średnich wdrożeniach, gdzie priorytetem jest prostota i szybkie działanie.
 - umożliwia łatwe zarządzanie architekturą mikrousług, gdzie wiele małych, niezależnych usług działa jednocześnie
@@ -50,7 +50,7 @@ Docker Swarm jest łatwiejszy do konfiguracji i użycia niż bardziej złożone 
 ![działający kontener](./nginx(4).png)
 
 
-## Tworzenie kontenera poprzez Stack
+### Tworzenie kontenera poprzez Stack
 
 1. Menu -> Stacks -> Add stack.
 
@@ -68,3 +68,13 @@ Docker Swarm jest łatwiejszy do konfiguracji i użycia niż bardziej złożone 
 ![edytowane](./stack2.png)
 
 4. Na samym dole kliknij Deploy the stack.
+
+
+## Zarządzanie w portainerze
+
+- Logs: wejdź w konkretny Container -> Logs - sprawdzanie ewentualnych błędów.
+- Restart / Stop / Remove: dostępne przy każdym kontenerze.
+- Inspect: pokazuje konfigurację, zmienne, mounted volumes.
+- Stats: monitorowanie CPU/Memory/Network na żywo.
+- Stack -> Recreate: aktualiza stack (np. po zmianie compose / nowy obraz) - można zaznaczyć Pull latest image, wtedy Portainer pobierze najnowszy obraz przed odtworzeniem.
+
