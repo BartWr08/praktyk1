@@ -78,3 +78,18 @@ Docker Swarm jest łatwiejszy do konfiguracji i użycia niż bardziej złożone 
 - Stats: monitorowanie CPU/Memory/Network na żywo.
 - Stack -> Recreate: aktualiza stack (np. po zmianie compose / nowy obraz) - można zaznaczyć Pull latest image, wtedy Portainer pobierze najnowszy obraz przed odtworzeniem.
 
+
+## Kilka komend w wierszu poleceń (konsoli)
+
+- docker ps - pokazuje wszystkie uruchomione kontenery z nazwami, portami i stanem.
+- docker images - wyświetla obrazy, obecne lokalnie na serwerze.
+- docker logs *nazwa kontenera* - pokazuje dziennik (log) wybranego kontenera, np. błędy lub start aplikacji.
+- docker logs -f *nazwa kontenera* - aby śledzić logi na żywo wystarczy dodać -f
+- docker exec -it my-nginx /bin/bash - uruchamia konsolę wewnątrz kontenera, dzięki temu można przeglądać jego pliki (ls, cat, cd /usr/share/nginx/html), sprawdzać konfiguracje itp.
+- docker stop *nazwa kontenera* - zatrzymywanie kontenera
+- docker start *nazwa kontenera* - uruchamianie kontenera
+- docker rm *nazwa kontenera* - usuwanie kontenera
+- docker system prune -f - czyści nieużywane kontenery, sieci, obrazy, usuwa śmieci
+- docker volume ls - lista wolumenów (danych)
+- docker stats - na żywo pokazuje CPU/RAM użycie kontenerów.
+
