@@ -16,7 +16,7 @@ Web Editor to wbudowany edytor tekstowy w interfejsie Portainera, który służy
       3. monitoruje je jako jeden stack (czyli grupę usług).
    - w skrócie Web Editor to miejsce w którym się definiuje aplikacje złożone z jednego lub wielu kontenerów.
 
-## Tworzenie Stack w Web Editor Nginx z Bazą danych
+## Tworzenie Stack w Web Editor Nginx z bazą danych (PostgreSQL)
 Objaśnienia pod zdjęciem.
 
 
@@ -42,7 +42,7 @@ W tym przykładzie są dwa serwisy:
 Klucze i ich znaczenia:
  - image: nginx:alpine - pobiera oficjalny obraz Nginx w lekkiej wersji Alpine Linux.
  - container_name - ustalona nazwa kontenera (opcjonalna, ułatwia identyfikację).
- - ports - mapowanie portów: 8080 (host) -> 80 (kontener). Otwórz w przeglądarce: http://localhost:8080.
+ - ports - mapowanie portów: 8080 (host) -> 80 (kontener). Otwarcie w przeglądarce będzie możliwe pod adresem: http://localhost:8080.
  - volumes - montuje lokalny katalog ./html (w tym samym folderze co plik compose) do /usr/share/nginx/html w kontenerze. Możesz tam wrzucić pliki index.html.
  - depends_on - docker uruchomi Nginx po starcie bazy (db).
  - restart: unless-stopped - automatyczne ponowne uruchamianie po restarcie systemu lub błędzie (chyba że zatrzymasz ręcznie).
@@ -61,7 +61,17 @@ Klucze i ich znaczenia
 
 Tworzy named volume (trwałe miejsce na dane). Docker zarządza nim samodzielnie — dane bazy są zachowane między restartami kontenera lub systemu.
 
+**Przygotowanie strony powitalnej:**
 
+Poniżej pokazana komenda tworzenia pliku w wewnętrznym katalogu Portainera, dzięki czemu będzie on dostępny dla kontenera zawsze i bez problemowo.
 
+![komenda](./command.png)
 
+**Uruchomienie**
+
+*Deploy Stack* na samym dole wdraża Stacka.
+
+Otwarcie w przeglądarce: http://localhost:8080
+
+![powitanie](./moje_powitanie.png)
 
