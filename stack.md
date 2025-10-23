@@ -29,13 +29,25 @@ To wersja składni docker-compose. 3.8 to nowoczesna wersja kompatybilna z więk
 
 **services:**
 
-Sekcja services definiuje, jakie kontenery będą uruchamiane w ramach aplikacji.
-
-Każdy service = jeden kontener (lub replika).
+Sekcja services definiuje, jakie kontenery będą uruchamiane w ramach aplikacji. Każdy service = jeden kontener (lub replika).
 
 W tym przykładzie są dwa serwisy:
- - web (Nginx) - obraz sieci
- - db (PostgreSQL) - baza danych
+ - web (Nginx) - serwis aplikacyjny (frontend)
+ - db (PostgreSQL) - serwis bazy danych PostgreSQL
+
+**web:**
+
+![web services](./web.png)
+
+Klucze i ich znaczenia:
+ - image: nginx:alpine - pobiera oficjalny obraz Nginx w lekkiej wersji Alpine Linux.
+ - container_name - ustalona nazwa kontenera (opcjonalna, ułatwia identyfikację).
+ - ports - mapowanie portów: 8080 (host) -> 80 (kontener). Otwórz w przeglądarce: http://localhost:8080.
+ - volumes - montuje lokalny katalog ./html (w tym samym folderze co plik compose) do /usr/share/nginx/html w kontenerze. Możesz tam wrzucić pliki index.html.
+ - depends_on - docker uruchomi Nginx po starcie bazy (db).
+ - restart: unless-stopped - automatyczne ponowne uruchamianie po restarcie systemu lub błędzie (chyba że zatrzymasz ręcznie).
+
+
 
 
 
