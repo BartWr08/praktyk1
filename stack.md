@@ -1,9 +1,7 @@
-## pierwszy problem
+## Wczorajszy problem
 ![reset połączenia](./connection_reset.png)
 
-Udało się określić że występuje gdy port jest ustawiony na inny niż 8080:80.
-
-Po ustawieniu takiego portu pojawia się standardowe powitanie Nginx:
+Oznacza że port kontenera nie został poprawnie wystawiony, ale kontener działa
 
 ![](./powitanie.png)
 
@@ -19,13 +17,12 @@ Web Editor to wbudowany edytor tekstowy w interfejsie Portainera, który służy
 ## Tworzenie Stack w Web Editor Nginx z bazą danych (PostgreSQL)
 Objaśnienia pod zdjęciem.
 
-
 Ucięte na samej górze kodu: *version: "3.8"*
 ![](./create_stack.png)
 
 **version: "3.8"**
 
-To wersja składni docker-compose. 3.8 to nowoczesna wersja kompatybilna z większością aktualnych Dockerów i Portainerów. Nie wpływa na działanie, ale określa dostępne funkcje (np. depends_on, volumes, networks).
+To wersja składni docker-compose. 3.8 to wersja kompatybilna z większością aktualnych Dockerów i Portainerów. Nie wpływa na działanie, ale określa dostępne funkcje (np. depends_on, volumes, networks).
 
 **services:**
 
