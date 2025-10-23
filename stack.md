@@ -16,7 +16,7 @@ Web Editor to wbudowany edytor tekstowy w interfejsie Portainera, który służy
       3. monitoruje je jako jeden stack (czyli grupę usług).
    - w skrócie Web Editor to miejsce w którym się definiuje aplikacje złożone z jednego lub wielu kontenerów.
 
-## Tworzenie Stack w Web Editor
+## Tworzenie Stack w Web Editor Nginx z Bazą danych
 Objaśnienia pod zdjęciem.
 
 
@@ -46,6 +46,20 @@ Klucze i ich znaczenia:
  - volumes - montuje lokalny katalog ./html (w tym samym folderze co plik compose) do /usr/share/nginx/html w kontenerze. Możesz tam wrzucić pliki index.html.
  - depends_on - docker uruchomi Nginx po starcie bazy (db).
  - restart: unless-stopped - automatyczne ponowne uruchamianie po restarcie systemu lub błędzie (chyba że zatrzymasz ręcznie).
+
+**db:**
+
+![database services](./db.png)
+
+Klucze i ich znaczenia
+ - image: postgres:15 - oficjalny obraz PostgreSQL w wersji 15.
+ - environment - zmienne środowiskowe do konfiguracji bazy (tworzy użytkownika, hasło i bazę przy starcie).
+ - volumes - dane bazy będą trwale przechowywane w wolumenie db_data (nie znikną po usunięciu kontenera).
+ - restart - jak wyżej (web services) automatyczny restart.
+
+**volumes**
+
+Tworzy named volume (trwałe miejsce na dane). Docker zarządza nim samodzielnie — dane bazy są zachowane między restartami kontenera lub systemu.
 
 
 
