@@ -22,3 +22,20 @@ Objaśnienia pod zdjęciem.
 
 Ucięte na samej górze kodu: *version: "3.8"*
 ![](./create_stack.png)
+
+**version: "3.8"**
+
+To wersja składni docker-compose. 3.8 to nowoczesna wersja kompatybilna z większością aktualnych Dockerów i Portainerów. Nie wpływa na działanie, ale określa dostępne funkcje (np. depends_on, volumes, networks).
+
+**services:**
+
+Sekcja services definiuje, jakie kontenery będą uruchamiane w ramach aplikacji.
+
+Każdy service = jeden kontener (lub replika).
+
+W tym przykładzie są dwa serwisy:
+ - web (Nginx) - obraz sieci
+ - db (PostgreSQL) - baza danych
+
+
+
