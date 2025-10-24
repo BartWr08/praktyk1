@@ -17,7 +17,7 @@ Użycie HTTP może być korzystniejsze w:
  - Sieciach zamkniętych z pełnym zaufaniem - systemy działające wyłącznie w prywatnych, odseparowanych sieciach bez ryzyka podsłuchu (np. część intranetów).
  - Usługach nieprzetwarzających żadnych wrażliwych danych - dostęp do publicznej dokumentacji lub zasobu, do którego każdy i tak ma pełny wgląd.
 
-Domyślny port to :80.
+Domyślny port to :80
 
 **HTTPS**
 
@@ -31,4 +31,7 @@ Podczas nawiązywania połączenia wykonywany jest tzw. TLS handshake, podczas k
  - uzgadniane są klucze szyfrujące,
  - ustanawiany jest zaszyfrowany kanał komunikacji.
 
-Domyślny port to :443.
+Użycie HTTPS będzie korzystniejsze we wszystkich niewymienionych dla HTTP przypadkach, ponieważ jest to preferowana metoda przesyłu danych w sieci, jako bezpieczniejsza i obecnie lepiej optymalizowana. 
+Skutkuje to często szybszym działaniem pomimo dodatkowego narzutu szyfrowania i przesyłu certyfikatów
+
+Domyślny port to :443
