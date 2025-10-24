@@ -11,6 +11,12 @@ Cała komunikacja odbywa się w formie tekstowej. Brak szyfrowania oznacza, że 
  - zmodyfikowane po drodze,
  - wykorzystane przez osoby trzecie.
 
+Użycie HTTP może być korzystniejsze w:
+ - Lokalnych środowiskach developerskich - aplikacja testowa na localhost bez dostępu do internetu, brak wymogu certyfikatów upraszcza konfigurację.
+ - Urządzeniach o bardzo ograniczonych zasobach - niektóre stare moduły IoT lub mikrokontrolery, które nie obsługują TLS z powodu braku mocy obliczeniowej.
+ - Sieciach zamkniętych z pełnym zaufaniem - systemy działające wyłącznie w prywatnych, odseparowanych sieciach bez ryzyka podsłuchu (np. część intranetów).
+ - Usługach nieprzetwarzających żadnych wrażliwych danych - dostęp do publicznej dokumentacji lub zasobu, do którego każdy i tak ma pełny wgląd.
+
 Domyślny port to :80.
 
 **HTTPS**
