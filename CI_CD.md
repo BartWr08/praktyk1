@@ -72,6 +72,7 @@ Zapewnia to stałą aktualność dokumentacji
 ## Webhook
 
 Webhook to mechanizm komunikacji między systemami, który automatycznie wysyła powiadomienia o zdarzeniach z jednego systemu do innego — w formie żądania HTTP (najczęściej POST).
+Jest to kluczowy element nowoczesnych integracji i automatyzacji, bo umożliwia systemom reagowanie na zdarzenia w czasie rzeczywistym, bez opóźnień i zbędnych zapytań.
 
 ### Działanie
 Webhook to adres URL, pod który system wysyła dane, kiedy wydarzy się określone zdarzenie.
@@ -95,7 +96,6 @@ Webhooki eliminują ciągłe odpytywanie (polling) systemu o zmiany. Są więc:
    - System płatności informuje sklep o potwierdzeniu transakcji.
 4. Automatyczne powiadomienia
    - Narzędzie monitorujące zgłasza alerty np. na Slacka lub e-mail.
-
-
-
+5. IoT i automatyzacje
+ - Sensor wysyła dane o zdarzeniu do aplikacji sterującej (np. w smart home).
 
