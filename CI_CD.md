@@ -1,6 +1,18 @@
 # CI/CD
 
-## CI (Continuous Integration — ciągła integracja)
+### Modele
+1. CI - integracja
+2. CD - dostarczanie
+3. CD - wdrażanie
+
+**Inne modele, niebędące formalnymi modelami CI/CD, istniejące w praktyce**
+1. Blue-Green Deployment - to dwie identyczne produkcje, ruch jest przełączany między nimi, minimalizuje przestoje.
+2. Canary Releases - wdrażanie do małej grupy użytkowników, stopniowe testowanie zmian.
+3. Feature Flags - funkcje ukryte do czasu aktywacji, częste wdrożenia bez ujawniania niedokończonych funkcji.
+4. Progressive Delivery - połączenie canary + feature flags, kontrolowane ryzyko, skalowalne wydania.
+
+
+### CI (Continuous Integration — ciągła integracja)
 Jest to praktyka polegająca na częstym scalaniu zmian w projekcie i automatycznym ich testowaniu. Umożliwia to wczesne wychwytywanie błędów.
 Każda zmiana, którą programista wysyła do repozytorium, może zostać automatycznie:
  - sprawdzona pod kątem poprawności (testy jednostkowe, analiza jakości kodu)
