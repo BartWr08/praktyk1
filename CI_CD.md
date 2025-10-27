@@ -20,3 +20,13 @@ W tym przypadku mogą być dwa podejścia do działań:
 **Główny cel: skracać drogę od napisania kodu do działania u użytkownika.**
 
 
+## CI/CD na GitHubie
+GitHub dostarcza własną platformę automatyzacji: GitHub Actions.
+
+Pozwala ona na tworzenie przepływów pracy (workflow), które uruchamiają się automatycznie przy określonych zdarzeniach, np.:
+ - push do repozytorium,
+ - pull request,
+ - publikacja wydania (release),
+ - zaplanowany czas (np. codziennie o północy).
+
+Workflowy działają na podstawie tzw. akcji, czyli gotowych lub własnych kroków automatyzacji.
