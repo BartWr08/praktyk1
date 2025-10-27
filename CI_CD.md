@@ -71,15 +71,15 @@ Zapewnia to stałą aktualność dokumentacji
 
 ## Webhook
 
-Webhook to mechanizm komunikacji między systemami, który automatycznie wysyła powiadomienia o zdarzeniach z jednego systemu do innego — w formie żądania HTTP (najczęściej POST).
+Webhook to mechanizm komunikacji między systemami, który automatycznie wysyła powiadomienia o zdarzeniach z jednego systemu do innego - w formie żądania HTTP (najczęściej POST).
 Jest to kluczowy element nowoczesnych integracji i automatyzacji, bo umożliwia systemom reagowanie na zdarzenia w czasie rzeczywistym, bez opóźnień i zbędnych zapytań.
 
 ### Działanie
 Webhook to adres URL, pod który system wysyła dane, kiedy wydarzy się określone zdarzenie.
-Nie trzeba pytać systemu „czy coś się zmieniło?” — on sam informuje.
+Nie trzeba pytać systemu „czy coś się zmieniło?” - on sam informuje.
  - Konfigurujesz adres URL (endpoint) odbiorcy
  - System obserwuje konkretne zdarzenia (np. push do repozytorium)
- - Gdy zdarzenie wystąpi — system automatycznie wysyła HTTP POST z informacją
+ - Gdy zdarzenie wystąpi system automatycznie wysyła HTTP POST z informacją
  - Odbiorca przetwarza dane i wykonuje kolejne kroki (np. aktualizacja, uruchomienie akcji).
 
 Webhooki eliminują ciągłe odpytywanie (polling) systemu o zmiany. Są więc:
