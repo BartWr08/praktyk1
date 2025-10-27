@@ -97,5 +97,5 @@ Webhooki eliminują ciągłe odpytywanie (polling) systemu o zmiany. Są więc:
 4. Automatyczne powiadomienia
    - Narzędzie monitorujące zgłasza alerty np. na Slacka lub e-mail.
 5. IoT i automatyzacje
- - Sensor wysyła dane o zdarzeniu do aplikacji sterującej (np. w smart home).
+   - Sensor wysyła dane o zdarzeniu do aplikacji sterującej (np. w smart home).
 
