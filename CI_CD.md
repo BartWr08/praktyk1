@@ -10,3 +10,13 @@ Każda zmiana, którą programista wysyła do repozytorium, może zostać automa
 **Główny cel to zapobieganie kumulacji błędów i utrzymywanie stabilności projektu.**
 
 
+## CD (Continuous Delivery/Continuous Deployment — ciągłe dostarczanie / wdrażanie)
+To etap po CI, odpowiadający za dostarczanie oprogramowania na środowiska testowe lub produkcyjne.
+
+W tym przypadku mogą być dwa podejścia do działań:
+ - Continuous Delivery	- po zatwierdzeniu zmian i przejściu testów, kod jest przygotowany do wdrożenia, ale to człowiek podejmuje decyzję o publikacji.
+ - Continuous Deployment - każda poprawna zmiana jest automatycznie wdrażana na produkcję, bez ręcznej ingerencji.
+
+**Główny cel: skracać drogę od napisania kodu do działania u użytkownika.**
+
+
