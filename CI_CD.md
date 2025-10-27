@@ -13,7 +13,9 @@
 
 
 ### CI (Continuous Integration — ciągła integracja)
-Jest to praktyka polegająca na częstym scalaniu zmian w projekcie i automatycznym ich testowaniu. Umożliwia to wczesne wychwytywanie błędów.
+Jest to praktyka polegająca na częstym scalaniu zmian w projekcie i automatycznym ich testowaniu. Umożliwia to wczesne wychwytywanie błędów. 
+Skupia się na: jakości kodu, szybkim wykrywaniu błędów, stabilnej gałęzi głównej (main/master).
+
 Każda zmiana, którą programista wysyła do repozytorium, może zostać automatycznie:
  - sprawdzona pod kątem poprawności (testy jednostkowe, analiza jakości kodu)
  - zbudowana (np. kompilacja projektu)
@@ -66,5 +68,18 @@ Dzięki temu użytkownicy mają od razu dostęp do najnowszej wersji.
    - automatyczna jej publikacja
 
 Zapewnia to stałą aktualność dokumentacji
+
+## Webhook
+
+Webhook to mechanizm komunikacji między systemami, który automatycznie wysyła powiadomienia o zdarzeniach z jednego systemu do innego — w formie żądania HTTP (najczęściej POST).
+
+### Działanie
+Webhook to adres URL, pod który system wysyła dane, kiedy wydarzy się określone zdarzenie.
+Nie trzeba pytać systemu „czy coś się zmieniło?” — on sam informuje.
+ - Konfigurujesz adres URL (endpoint) odbiorcy
+ - System obserwuje konkretne zdarzenia (np. push do repozytorium)
+ - Gdy zdarzenie wystąpi — system automatycznie wysyła HTTP POST z informacją
+ - Odbiorca przetwarza dane i wykonuje kolejne kroki (np. aktualizacja, uruchomienie akcji).
+
 
 
