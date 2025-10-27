@@ -81,5 +81,21 @@ Nie trzeba pytać systemu „czy coś się zmieniło?” — on sam informuje.
  - Gdy zdarzenie wystąpi — system automatycznie wysyła HTTP POST z informacją
  - Odbiorca przetwarza dane i wykonuje kolejne kroki (np. aktualizacja, uruchomienie akcji).
 
+Webhooki eliminują ciągłe odpytywanie (polling) systemu o zmiany. Są więc:
+ - wydajniejsze - brak niepotrzebnych zapytań
+ - szybsze - reakcja jest natychmiastowa
+ - prostsze - komunikacja oparta o standard HTTP i JSON.
+
+### Zastosowania:
+1. W CI/CD
+   - Gdy ktoś wykona commit lub otworzy pull request, webhook uruchamia pipeline testów i budowania projektu.
+2. Integracje aplikacji
+   - Np. sklep e-commerce informuje system fakturowania o nowym zamówieniu.
+3. Płatności online
+   - System płatności informuje sklep o potwierdzeniu transakcji.
+4. Automatyczne powiadomienia
+   - Narzędzie monitorujące zgłasza alerty np. na Slacka lub e-mail.
+
+
 
 
