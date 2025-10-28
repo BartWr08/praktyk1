@@ -1,11 +1,4 @@
-## Wczorajszy problem
-![reset połączenia](./connection_reset.png)
-
-Oznacza że port kontenera nie został poprawnie wystawiony, ale kontener działa
-
-![](./powitanie.png)
-
-## Web Editor.
+# Web Editor.
 Web Editor to wbudowany edytor tekstowy w interfejsie Portainera, który służy do wprowadzania (pisania lub wklejania) pliku docker-compose.yml, czyli definicji całej aplikacji (stacka). Pozwala na:
    - napisać lub wkleić kod docker-compose.yml, który opisuje, jakie kontenery mają się uruchomić, z jakich obrazów, na jakich portach, z jakimi zmiennymi środowiskowymi itp.
    - następnie po kliknięciu Deploy the stack, Portainer:
@@ -14,7 +7,7 @@ Web Editor to wbudowany edytor tekstowy w interfejsie Portainera, który służy
       3. monitoruje je jako jeden stack (czyli grupę usług).
    - w skrócie Web Editor to miejsce w którym się definiuje aplikacje złożone z jednego lub wielu kontenerów.
 
-## Tworzenie Stack w Web Editor Nginx z bazą danych (PostgreSQL)
+# Tworzenie Stack w Web Editor Nginx z bazą danych (PostgreSQL)
 Objaśnienia pod zdjęciem.
 
 Ucięte na samej górze kodu: *version: "3.8"*
@@ -72,3 +65,8 @@ Otwarcie w przeglądarce: http://localhost:8080
 
 ![powitanie](./moje_powitanie.png)
 
+## Częsty problem
+![reset połączenia](./connection_reset.png)
+
+Oznacza że port kontenera nie został poprawnie wystawiony, ale kontener działa. Trzeba wtedy zweryfikować ustawienia portów w Web Editor.
+Poprawnie wystawiony port umożliwia zalogowanie się na stronę
